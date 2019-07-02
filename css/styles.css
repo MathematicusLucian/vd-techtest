@@ -7,7 +7,7 @@ b {
     font-weight: 700;
 }
 .container-fluid {
-	padding: 0 70px;
+    padding: 0 70px;
 }
 .product-page {
     padding-top: 20px;
@@ -19,7 +19,7 @@ b {
     padding-bottom: 10px;
 }
 .product-page__name {
-	color: #007fa9;
+    color: #007fa9;
     font-family: 'Gotham Rounded','sans-serif';
     font-weight: 700;
     font-size: 30px;
@@ -42,7 +42,7 @@ b {
     position: relative;
 }
 .product-add-title {
-	font-family: 'Gotham Rounded','sans-serif';
+    font-family: 'Gotham Rounded','sans-serif';
     font-weight: 700;
     font-size: 18px;
     line-height: 1;
@@ -52,6 +52,28 @@ b {
     line-height: 1.5;
     padding-bottom: 10px;
 } 
+form{
+    margin: 0;
+}
+table {
+    color: #999!important;
+    table-layout: fixed;
+    width: 100%;  
+    font-size: .875em;  
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.42857rem;
+}
+.table td {
+    border: 0;    
+    padding: 10px 0;
+}
+.left-right-checkboxes label {
+    color: #000;
+}
+.product-colour-select {
+    position: relative;
+}
 #select_product-colour {
     border: 1px solid #ddd;
     background: #fff;
