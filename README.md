@@ -12,3 +12,11 @@ In the drop down list, there are 3 options: red, blue and green. When a user sel
 ## Bonus points  
 
 The widget is set up on a page with a head/ footer elements, browser compatible (min IE 10...) and is responsive.  
+
+## My code  
+
+Desktop  
+![desktop](desktop_view.png)  
+
+Mobile  
+![mobile](mobile_view.png)  
