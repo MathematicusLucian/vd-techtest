@@ -126,6 +126,7 @@ table {
     padding-top: 20px!important;
 }
 
+
 /* Header and Footer */
 a {
     text-decoration: none;
@@ -239,4 +240,15 @@ footer .row{
     text-align: right;
     font-size: inherit;
     font-weight: 600; 
+}
+@media only screen and (max-width: 950px) { 
+    .no_mobile {
+        display: none !important;
+    }
+    .vd-logo {
+        float: none;
+    }
+    .header__top { 
+        text-align: center; 
+    }
 }
