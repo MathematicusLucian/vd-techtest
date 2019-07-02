@@ -258,7 +258,7 @@ footer .row{
         padding: 10px 0;
     }
     .container-fluid{
-        padding: 0;
+        padding: 0 8px;
     }
     .product-page {
         padding-top: 0; 
