@@ -1,4 +1,4 @@
-# vd.github.io
+# vd-techtest
 Tech Test  
 
 ## Instructions  
