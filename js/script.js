@@ -6,6 +6,8 @@ $( document ).ready(function() {
 
 	    var colour = $("#select_product-colour").val(); 
 
+		$("#btn-product_color").css("background-color",colour);
+
 	    return false;
 
 	});
