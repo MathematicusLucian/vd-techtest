@@ -5,8 +5,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="./js/bootstrap-4.3.1-dist/css/bootstrap.min.css">
 	<script src="./js/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+	<script src="./js/script.js"></script>
 </head>
 <body>
+
+	
+
 
 	<div class="container-fluid product-page">
 
@@ -25,17 +29,16 @@
 	        </div>
 
 	        <div class="col-md-5 product-page__prescription">
+	           
+		        <div class="box box--cream-light">
 
-	        	<div class="box box--cream-light">
-
-		        	<form id="product_color_form" action="" autocomplete="off">
+		        	<form id="product_color_form" autocomplete="off">
 
 	                	<h4 class="product-add-title">Enter Your Prescription</h4>
 
-		       	 		<table class="table">
-
+	                	<table class="table">
+	                		
 					        <tbody>
-
 					        <!-- checkboxes-left-right -->
 					            <tr class="left-right-checkboxes">
 					                <td> 
@@ -49,9 +52,9 @@
 					                    <input id="right_eye_checkbox" class="eye_checkbox" type="checkbox" checked="checked">
 					                    <label for="right_eye_checkbox" class="text">Right</label>
 					                </td>
-					            </tr> 
-
-					            <tr class="BC " data-option-title="BC">
+					            </tr>
+					        
+								<tr class="BC " data-option-title="BC">
 					                <td>
 					                    
 					                    <span>Colour</span>
@@ -61,7 +64,7 @@
 
 					                	<div class="product-colour-select">
 					                		<select name="product-colour" id="select_product-colour" tabindex="0">
-					                			<option selected="selected" value="0">---</option> 
+					                			<option selected="selected" value="0">---</option>
 					                			<option value="#aac800">green</option>
 					                			<option value="red">red</option>
 					                			<option value="blue">blue</option> 
@@ -77,17 +80,17 @@
 
 					    </table>
 
+					    <button class="btn btn--full btn--green" id="btn-product_color" value="">
+	      					<b>Button Colour</b>
+	   					</button>
+
+	   					<div id="product-add-dialog"> You have not selected a button colour yet! </div>
+
 	   				</form>
-
-				    <button class="btn btn--full btn--green" id="btn-product_color" value="">
-      					<b>Button Colour</b>
-   					</button>
-
-   					<div id="product-add-dialog"> You have not selected a button colour yet! </div>
 
                 </div>
 
-                <div class="swap-elements box box--cream-light"> 
+                <div class="swap-elements box box--cream-light">
 					 <span class="btn btn--full big btn--green" id="btn-swap-elements">
       					<b>Swap Elements</b>
    					</span>
@@ -96,8 +99,7 @@
 	        </div>
 
 	    </div>
-
-	 </div>
+	</div>
 
 </body>
 </html>
