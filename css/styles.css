@@ -247,11 +247,20 @@ footer .row{
     }
     .vd-logo {
         float: none;
+        width: 228px;
+        height: 30px; 
+        background-position: left -103px;
     }
     .header__top { 
         text-align: center; 
     }
+    .header__top {
+        padding: 10px 0;
+    }
     .container-fluid{
         padding: 0;
+    }
+    .product-page {
+        padding-top: 0; 
     }
 }
