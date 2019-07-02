@@ -4,11 +4,29 @@ $( document ).ready(function() {
  
 		e.preventDefault();
 
-	    var colour = $("#select_product-colour").val(); 
+	    var colour = $("#select_product-colour").val();
 
-		$("#btn-product_color").css("background-color",colour);
+	    if(colour != "0"){
+
+		    $("#btn-product_color").css("background-color",colour);
+
+			$("#select_product-colour option[value='0']").remove();
+
+		}
 
 	    return false;
+
+	});
+
+	$("#select_product-colour").on("change", function(e){
+
+		var colour = $("#select_product-colour").val();
+
+		if(colour != "0"){
+
+			$("#product-add-dialog").html("");
+
+		}
 
 	});
 
@@ -21,5 +39,6 @@ $( document ).ready(function() {
 		return false;
 
 	});
+
 
 });
