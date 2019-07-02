@@ -16,7 +16,7 @@ The widget is set up on a page with a head/ footer elements, browser compatible 
 ## My code  
 
 Desktop  
-![desktop](desktop_view.png)  
+![desktop](./img/desktop_view.png)  
 
 Mobile  
-![mobile](mobile_view.png)  
+![mobile](./img/mobile_view.png)  
