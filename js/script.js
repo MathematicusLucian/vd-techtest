@@ -12,4 +12,14 @@ $( document ).ready(function() {
 
 	});
 
+	$("#btn-swap-elements").click(function(){
+		
+		var firstChild = $(".product-page > .row").children().eq(0);
+
+		$(".product-page > .row").append(firstChild);
+
+		return false;
+
+	});
+
 });
