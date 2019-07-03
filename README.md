@@ -11,25 +11,25 @@ Live url: [https://k1n4kut4.github.io/vd-techtest](https://k1n4kut4.github.io/vd
 -  CSS file: would prefer SASS but beyond scope of this little test  
 -  JavaScript: jQuery code in script.js  
 
+##### Desktop  
+![desktop](./img/desktop_view_2.png)  
+
 ### Bonus points
 
-1. head/ footer elements: simplified versions of the actual VD website head/ footer; responsive.
+#### 1. head/ footer elements:  
+Simplified versions of the actual VD website head/ footer; responsive.
 
-2. IE10:  
+#### 2. IE10:  
   - ```pointer-events: none;``` is not IE10 compatible and thus added jQuery code to script.js  
   - ``` @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { ``` added to ```.selectric-button ``` because CSS height attribute effects IE10+ (tried 11 too) differently.
   
-#### IE10
+##### IE10 View
 ![desktop](./img/ie_view.png) 
 
-3. responsive: website uses Twitter Bootstrap
+#### 3. responsive: 
+Website uses Twitter Bootstrap
 
-## My code - Previews
-
-### Desktop  
-![desktop](./img/desktop_view_2.png)  
-
-### Mobile  
+##### Mobile  
 ![mobile](./img/mobile_view.png)  
 
 ---
