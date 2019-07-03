@@ -3,7 +3,7 @@ Tech Test
 
 ## My code  
 
-Live url: [https://k1n4kut4.github.io](https://k1n4kut4.github.io "https://k1n4kut4.github.io")
+Live url: [https://k1n4kut4.github.io/vd-techtest](https://k1n4kut4.github.io/vd-techtest)
 
 ### Details
 
