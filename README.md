@@ -3,15 +3,15 @@ Tech Test
 
 ## My code  
 
-Live url: [Live url](https://k1n4kut4.github.io "https://k1n4kut4.github.io")
+Live url: [https://k1n4kut4.github.io](https://k1n4kut4.github.io "https://k1n4kut4.github.io")
 
-# Details
+### Details
 
 ⋅⋅* Main page: index.html (uses Twitter Bootstrap)
 ⋅⋅* CSS file: would prefer SASS but beyond scope of this little test  
 ⋅⋅* JavaScript: jQuery code in script.js  
 
-# Bonus points
+### Bonus points
 
 1. head/ footer elements: simplified versions of the actual VD website head/ footer; responsive.
 
@@ -22,10 +22,10 @@ Live url: [Live url](https://k1n4kut4.github.io "https://k1n4kut4.github.io")
 
 ## My code - Previews
 
-# Desktop  
+### Desktop  
 ![desktop](./img/desktop_view_2.png)  
 
-# Mobile  
+### Mobile  
 ![mobile](./img/mobile_view.png)  
 
 ---
