@@ -101,7 +101,7 @@ table {
     height: 19px;
     font: 0/0 a;
     cursor: pointer;
-    pointer-events: none; /* Not IE10 compatible */
+    pointer-events: none; /* Not IE10 compatible and thus added jQ code to script.js */
 }
 .selectric-button:after {
     content: " ";

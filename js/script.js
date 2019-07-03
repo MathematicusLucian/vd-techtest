@@ -40,5 +40,13 @@ $( document ).ready(function() {
 
 	});
 
+	$(".selectric-button").click(function(){
+
+		$("#select_product-colour").trigger("click");
+
+		return false;
+
+	});
+
 
 });
