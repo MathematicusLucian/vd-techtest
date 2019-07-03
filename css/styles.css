@@ -103,6 +103,9 @@ table {
     cursor: pointer;
     pointer-events: none; /* Not IE10 compatible and thus added jQ code to script.js */
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    height: 26px;
+}
 .selectric-button:after {
     content: " ";
     position: absolute;
