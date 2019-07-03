@@ -7,9 +7,9 @@ Live url: [https://k1n4kut4.github.io](https://k1n4kut4.github.io "https://k1n4k
 
 ### Details
 
-⋅⋅* Main page: index.html (uses Twitter Bootstrap)
-⋅⋅* CSS file: would prefer SASS but beyond scope of this little test  
-⋅⋅* JavaScript: jQuery code in script.js  
+-  Main page: index.html (uses Twitter Bootstrap)
+-  CSS file: would prefer SASS but beyond scope of this little test  
+-  JavaScript: jQuery code in script.js  
 
 ### Bonus points
 
