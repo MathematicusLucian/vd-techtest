@@ -15,8 +15,15 @@ The widget is set up on a page with a head/ footer elements, browser compatible 
 
 ## My code  
 
+1. head/ footer elements: simplified versions of the actual VD website head/ footer; responsive.
+
+2. IE10:  
+<code>pointer-events: none;</code> is not IE10 compatible and thus added jQ code to script.js  
+
+3. responsive: website uses Twitter Bootstrap
+
 Desktop  
-![desktop](./img/desktop_view.png)  
+![desktop](./img/desktop_view_2.png)  
 
 Mobile  
 ![mobile](./img/mobile_view.png)  
