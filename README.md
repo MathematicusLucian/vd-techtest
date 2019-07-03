@@ -16,7 +16,11 @@ Live url: [https://k1n4kut4.github.io/vd-techtest](https://k1n4kut4.github.io/vd
 1. head/ footer elements: simplified versions of the actual VD website head/ footer; responsive.
 
 2. IE10:  
-```pointer-events: none;``` is not IE10 compatible and thus added jQuery code to script.js  
+  - ```pointer-events: none;``` is not IE10 compatible and thus added jQuery code to script.js  
+  - ``` @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { ``` added to ```.selectric-button ``` because CSS height attribute effects IE10+ (tried 11 too) differently.
+  
+#### IE10
+![desktop](./img/ie_view.png) 
 
 3. responsive: website uses Twitter Bootstrap
 
