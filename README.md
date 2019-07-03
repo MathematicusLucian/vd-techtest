@@ -1,5 +1,34 @@
 # vd-techtest
-Tech Test  
+Tech Test 
+
+## My code  
+
+Live url: [Live url](https://k1n4kut4.github.io "https://k1n4kut4.github.io")
+
+# Details
+
+⋅⋅* Main page: index.html (uses Twitter Bootstrap)
+⋅⋅* CSS file: would prefer SASS but beyond scope of this little test  
+⋅⋅* JavaScript: jQuery code in script.js  
+
+# Bonus points
+
+1. head/ footer elements: simplified versions of the actual VD website head/ footer; responsive.
+
+2. IE10:  
+```pointer-events: none;``` is not IE10 compatible and thus added jQuery code to script.js  
+
+3. responsive: website uses Twitter Bootstrap
+
+## My code - Previews
+
+# Desktop  
+![desktop](./img/desktop_view_2.png)  
+
+# Mobile  
+![mobile](./img/mobile_view.png)  
+
+---
 
 ## Instructions  
 
@@ -12,26 +41,3 @@ In the drop down list, there are 3 options: red, blue and green. When a user sel
 ## Bonus points  
 
 The widget is set up on a page with a head/ footer elements, browser compatible (min IE 10...) and is responsive.  
-
-## My code  
-
-- Main page: index.html (uses Twitter Bootstrap)
-- CSS file: would prefer SASS but beyond scope of this little test  
-- JavaScript: jQuery code in script.js  
-
-# Bonus points
-
-1. head/ footer elements: simplified versions of the actual VD website head/ footer; responsive.
-
-2. IE10:  
-<code>pointer-events: none;</code> is not IE10 compatible and thus added jQuery code to script.js  
-
-3. responsive: website uses Twitter Bootstrap
-
-## My code - Previews
-
-# Desktop  
-![desktop](./img/desktop_view_2.png)  
-
-# Mobile  
-![mobile](./img/mobile_view.png)  
